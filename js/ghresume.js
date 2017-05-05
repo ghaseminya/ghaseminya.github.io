@@ -43,6 +43,7 @@
         $('ul#user-info').append(sprintf('<li><i class="icon-user icon-white"></i>{0}</li>', user.company));
       if (user.blog && user.blog.length > 0)
         $('ul#user-info').append(sprintf('<li><i class="icon-home icon-white"></i>{0}</li>', user.blog));
+      $('ul#user-info').append(sprintf('<li><i class="icon-home icon-white"></i>{0}</li>', 'ghaseminya.ir'));
 
       // Followers
       var followers = user.followers;;
