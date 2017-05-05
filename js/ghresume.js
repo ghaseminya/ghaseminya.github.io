@@ -3,10 +3,10 @@
   $.support.cors = true;
 
   // Limit
-  var limit = 1200;
+  var limit = 1000;
 
   // Page limits
-  var pageLimit = 50;
+  var pageLimit = 1000;
 
   // API
   var api = 'https://api.github.com/users/';
@@ -43,7 +43,6 @@
         $('ul#user-info').append(sprintf('<li><i class="icon-user icon-white"></i>{0}</li>', user.company));
       if (user.blog && user.blog.length > 0)
         $('ul#user-info').append(sprintf('<li><i class="icon-home icon-white"></i>{0}</li>', user.blog));
-      $('ul#user-info').append(sprintf('<li><i class="icon-home icon-white"></i>{0}</li>', 'ghaseminya.ir'));
 
       // Followers
       var followers = user.followers;;
