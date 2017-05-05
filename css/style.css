@@ -38,9 +38,8 @@ td {
   font: inherit;
   vertical-align: baseline;
 }
-@import url(iranfont.css);body{font-family:IRANSans !important;font-weight:300;}
 body {
-  font-family: 'IRANSans', sans-serif;
+  font-family:IRANSans !important;font-weight:300;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
