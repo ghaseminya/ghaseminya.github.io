@@ -33,13 +33,35 @@
 
       <!-- avatar from gravatar-->
       <div class="row">
-        <div class="span3" id="avatar_container">
+        <div class="span3 pull-right" id="avatar_container">
           <!-- Is it ok to use this cute cat here? -->
           <img src="https://a248.e.akamai.net/assets.github.com/images/spinners/octocat-spinner-128.gif?1347543527" alt="avatar" id="avatar" height="170" width="170" />
         </div>
 
         <!-- header: avatar, name,  login-name-->
-        <div class="span4 offset1">
+
+        <!-- hireable circle -->
+        <div class="span1 countcircle">
+          <div id="hireable" >
+          </div>
+          <h2>استخدام</h2>
+        </div>
+        <!-- followers circle -->
+
+
+        <!-- repos count circle -->
+        <div class="span1 countcircle">
+          <div id="repos-count" >
+          </div>
+          <h2>مخازن</h2>
+        </div>
+        <div class="span1 countcircle ">
+          <div id="follower-number" >
+          </div>
+          <h2>دنبال کننده</h2>
+        </div>
+
+        <div class="span4 ">
           <h1 id="name"></h1>
           <!-- user infomation list -->
           <div id="user-info-container">
@@ -47,28 +69,6 @@
             </ul>
           </div>
         </div>
-
-        <!-- followers circle -->
-        <div class="span1 countcircle">
-          <div id="follower-number" >
-          </div>
-          <h2>follower</h2>
-        </div>
-
-        <!-- repos count circle -->
-        <div class="span1 countcircle">
-          <div id="repos-count" >
-          </div>
-          <h2>repo</h2>
-        </div>
-
-        <!-- hireable circle -->
-        <div class="span1 countcircle">
-          <div id="hireable" >
-          </div>
-          <h2>hireable</h2>
-        </div>
-
       </div>
 
     </div>
@@ -79,8 +79,6 @@
     <ul id="lang-container">
     </ul>
   </div>
-<<<<<<< HEAD
-=======
   <div class="container" id="hotlink">
     <h2>Hot Links</h2>
     <hr>
@@ -88,7 +86,7 @@
       <li><a href="https://ghaseminya.github.io/all/"></a></li>
     </ul>
   </div>
->>>>>>> 133ef18e924f3916d052d55fa1abcd596d8db5fb
+
   <div class="container" id="repos">
     <h2>Popular Repositories</h2>
     <hr>
