@@ -94,7 +94,7 @@ hr {
 .h2 {
   font-weight: normal;
   font-size: 147%;
-  
+
 }
 .container#user {
   margin: 3% auto;
@@ -129,6 +129,7 @@ hr {
 }
 .container#user .countcircle {
   margin: auto 13px;
+  margin-left: 30px;
 }
 .container#user .countcircle h2 {
   font-weight: normal;

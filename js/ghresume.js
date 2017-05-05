@@ -131,7 +131,7 @@
       });
 
       // Main Skill of User
-      $('h1#name').append(sprintf('&nbsp; <span>({0})</span>', langStats[0][0]));
+      $('h1#name').append(sprintf('&nbsp; <span class="pull-right">({0})</span>', langStats[0][0]));
 
       // Load colored lang.
       $.getJSON('vendors/github-language-colors/colors.json', function(colors) {
